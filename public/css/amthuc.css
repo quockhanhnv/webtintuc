@@ -1,0 +1,122 @@
+﻿.detail-content .detail-body .detail-material:not(h2)
+{
+    font-size: 0;
+    background: url("../images/icon-material.png") no-repeat top left;
+    height: 44px;
+    margin-bottom: 10px;
+}
+.detail-content .detail-body .detail-make:not(h2)
+{
+    background: url("../images/icon-howto.png") no-repeat top left;
+    height: 43px;
+    margin-bottom: 10px;
+}
+.detail-content .detail-body .detail-result:not(h2)
+{
+    font-size: 0;
+    background: url("../images/icon-result.png") no-repeat top left;
+    height: 32px;
+    margin-bottom: 10px;
+}
+.detail-content .detail-body h2.howto
+{
+    font-size: 18px;
+    color: #2ca9e6;
+    display: inline-block;
+    padding: 5px 25px 5px 50px;
+    position: relative;
+}
+.detail-content .detail-body h2.howto:after
+{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    width: 42px;
+    height: 43px;
+    left: 0;
+    bottom: 0;
+    background: url("../images/howto.png") no-repeat center center;
+}
+.detail-content .detail-body h2.howto:before
+{
+	content: " ";
+    display: block;
+    height: 1px;
+    position:absolute;
+    bottom: -1px;
+    left: 50px;
+    right: 0;
+    background: #dedede; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #dedede , #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dedede, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dedede, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dedede , #fff); /* Standard syntax */
+}
+.detail-content .detail-body h2.material
+{
+    font-size: 18px;
+    color: #2ca9e6;
+    display: inline-block;
+    padding: 5px 25px 5px 42px;
+    position: relative;
+}
+.detail-content .detail-body h2.material:after
+{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    width: 34px;
+    height: 45px;
+    left: 0;
+    bottom: 0;
+    background: url("../images/material.png") no-repeat center center;
+}
+.detail-content .detail-body h2.material:before
+{
+    content: " ";
+    display: block;
+    height: 1px;
+    position:absolute;
+    bottom: -1px;
+    left: 40px;
+    right: 0;
+    background: #dedede; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #dedede , #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dedede, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dedede, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dedede , #fff); /* Standard syntax */
+}
+.detail-content .detail-body h2.detail-result
+{
+    font-size: 18px;
+    color: #2ca9e6;
+    display: inline-block;
+    padding: 5px 25px 5px 48px;
+    position: relative;
+}
+.detail-content .detail-body h2.detail-result:after
+{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: 0;
+    bottom: 0;
+    background: url("../images/result.png") no-repeat center center;
+}
+.detail-content .detail-body h2.detail-result:before
+{
+	content: " ";
+    display: block;
+    height: 1px;
+    position:absolute;
+    bottom: -1px;
+    left: 48px;
+    right: 0;
+    background: #dedede; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #dedede , #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dedede, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #dedede, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #dedede , #fff); /* Standard syntax */
+}

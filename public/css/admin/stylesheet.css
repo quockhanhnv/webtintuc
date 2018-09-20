@@ -1,0 +1,67 @@
+/*==================COMMON CSS============*/
+body {
+    font-family: 'Roboto',Arial,serif;
+    font-size: 16px;
+    color: #555;
+}
+
+* {
+	box-sizing: border-box; /*Width height = actually width height
+	 of element*/
+}
+.clear-fix:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.no-margin {
+	margin: 0px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*======================HEADER=========================*/
+.header{
+	margin-top: 20px;
+}
+.header .logo img {
+	width: 100%;
+}
+
+.main-menu {
+	margin-top: 20px;
+}
+
+/*=====================Control========================*/
+.control{
+	margin-bottom: 15px;
+}
+
+.create{
+	float: right; 
+	margin-left: 5px;
+}
+
+.search{
+	float: right;
+	margin-left: 5px;
+}
+
+.input-search{
+	border-radius: 5px;
+	float: right;
+	width: 250px;
+	height: 35px;
+}
